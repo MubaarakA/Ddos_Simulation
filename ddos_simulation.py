@@ -23,7 +23,7 @@ def ddos_attack_simulation(validatedpasswd):
             print("you hacked this machine congratulation")
             displayinfo=input("you want to see the password  :)")
             if displayinfo in ["Yes","Y","yes",'y'] :
-                print("the password is my password",i)
+                print("the password is ",i)
             else:
                 return
         time.sleep(0.1)

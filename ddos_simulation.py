@@ -1,7 +1,7 @@
 import threading
 import time
 
-password="C:\\Users\\HP\\Desktop\\py\\typing_bot\\passwords.txt"
+password= # specify the file path
 
 found_password_event=threading.Event()
 
